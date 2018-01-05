@@ -58,3 +58,12 @@ typings/
 .env
 
 /vendor/
+
+composer.phar
+/vendor/
+config.php
+.htpasswd
+.htaccess
+/node_modules
+# testing
+/coverage
