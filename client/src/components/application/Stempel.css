@@ -1,0 +1,22 @@
+.stempel {
+    height:10vw;
+    width:10vw;
+    min-width:150px;
+    min-height:150px;
+    opacity: 0.325;
+
+    text-align:center;
+    transition: 1s;
+    padding:1vw;
+    margin:1vw;
+    background-size:contain;
+    background-position:center;
+    position:relative;
+}
+
+.stempel .tick {
+    position:absolute;
+    right:0;
+    bottom:0;
+    font-size:3em;
+}

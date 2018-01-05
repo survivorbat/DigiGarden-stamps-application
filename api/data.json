@@ -1,0 +1,40 @@
+{
+    "values": {
+        "title": "DigiTuin Stempelapp",
+        "desc": "Verzamel alle DigiStempels bij de kraampjes om een prijs te winnen! Vraag bij elk kraampje om het geheime woord en vul het daarna in om een stempel te krijgen. Veel succes!",
+        "resettext": "Klik hier om uw voortgang te resetten",
+        "successtext": "Gefeliciteerd u hebt alle stempels verzameld! U kunt nu bij de balie uw prijs ophalen."
+    },
+    "stempels": [
+        {
+            "naam": "Virtual Reality",
+            "logo": "logo1.png",
+            "wachtwoord": "test"
+        },
+        {
+            "naam": "Lades",
+            "logo": "logo2.png",
+            "wachtwoord": "test"
+        },
+        {
+            "naam": "Nog iets",
+            "logo": "logo3.png",
+            "wachtwoord": "test"
+        },
+        {
+            "naam": "Mijn Bravis",
+            "logo": "logo4.png",
+            "wachtwoord": "test"
+        },
+        {
+            "naam": "2",
+            "logo": "logo5.png",
+            "wachtwoord": "test"
+        },
+        {
+            "naam": "Naam",
+            "logo": "logo6.png",
+            "wachtwoord": "test"
+        }
+    ]
+}
