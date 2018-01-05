@@ -12,12 +12,12 @@
             "wachtwoord": "test"
         },
         {
-            "naam": "Lades",
+            "naam": "Voorbeeld1",
             "logo": "logo2.png",
             "wachtwoord": "test"
         },
         {
-            "naam": "Nog iets",
+            "naam": "Voorbeeld2",
             "logo": "logo3.png",
             "wachtwoord": "test"
         },
@@ -27,13 +27,18 @@
             "wachtwoord": "test"
         },
         {
-            "naam": "2",
+            "naam": "Voorbeeld3",
             "logo": "logo5.png",
             "wachtwoord": "test"
         },
         {
-            "naam": "Naam",
+            "naam": "Voorbeeld4",
             "logo": "logo6.png",
+            "wachtwoord": "test"
+        },
+        {
+            "naam": "Voorbeeld5",
+            "logo": "logo7.png",
             "wachtwoord": "test"
         }
     ]

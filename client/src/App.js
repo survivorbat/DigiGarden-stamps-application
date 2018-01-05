@@ -7,7 +7,7 @@ import Application from './components/application/Application';
 import AdminPanel from './components/application/Adminpanel';
 import Footer from './components/footer/Footer';
 
-const API_LINK = "/bravisopendag/api";
+const API_LINK = "/api";
 
 class App extends Component {
   constructor(){

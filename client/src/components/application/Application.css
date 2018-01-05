@@ -6,6 +6,7 @@
 }
 
 .successtext {
-    color:green;
-    font-size:5em;
+    color: green;
+    font-size: 2em;
+    font-weight: bolder;
 }
