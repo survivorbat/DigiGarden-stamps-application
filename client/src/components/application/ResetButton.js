@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 
+import './ResetButton.css';
+
 class ResetButton extends Component {
     resetApp(){
         if(window.confirm("Weet u zeker dat u uw stempels wil resetten? Dit kan niet ongedaan gemaakt worden!") === true){
@@ -9,7 +11,7 @@ class ResetButton extends Component {
     }
     render(){
         return (
-            <button className="btn btn-danger btn-xs" onClick={this.resetApp}>{this.props.text}</button>
+            <button className="btn btn-danger btn-xs ResetButton" onClick={this.resetApp}>{this.props.text}</button>
         );
     }
 }
