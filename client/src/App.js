@@ -4,7 +4,6 @@ import './App.css';
 
 import Header from './components/header/Header';
 import Application from './components/application/Application';
-import AdminPanel from './components/application/Adminpanel';
 import Footer from './components/footer/Footer';
 
 const API_LINK = "/api";
@@ -33,7 +32,6 @@ class App extends Component {
         <Header title={this.state.values.title} desc={this.state.values.desc}/>
         <Switch>
           <Route path='/' component={() => <Application API_LINK={API_LINK} data={this.state.stempels} successtext={this.state.values.successtext} resettext={this.state.values.resettext}/>}/>
-          <Route exact path='/mod' component={() => <AdminPanel/>} />/>
         </Switch>
         <Footer copyright="© Heijden Solutions 2018"/>
       </div>
