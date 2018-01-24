@@ -50,7 +50,7 @@ class Application extends Component {
                 </div>
                 <div className="row">
                     <div className="col-sm-12">
-                        <ResetButton text={this.props.resettext}/>
+                        <p className="successtext">{this.state.successtext}</p>
                     </div>
                 </div>
             </content>
