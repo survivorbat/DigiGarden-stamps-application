@@ -7,39 +7,54 @@
     },
     "stempels": [
         {
-            "naam": "Virtual Reality",
+            "naam": "WijZijn Traverse groep",
             "logo": "logo1.png",
-            "wachtwoord": "test"
+            "wachtwoord": "1"
         },
         {
-            "naam": "Voorbeeld1",
+            "naam": "Markland College",
             "logo": "logo2.png",
-            "wachtwoord": "test"
+            "wachtwoord": "2"
         },
         {
-            "naam": "Voorbeeld2",
+            "naam": "Easystepper",
             "logo": "logo3.png",
-            "wachtwoord": "test"
+            "wachtwoord": "3"
         },
         {
-            "naam": "Mijn Bravis",
+            "naam": "Patiënten app",
             "logo": "logo4.png",
-            "wachtwoord": "test"
+            "wachtwoord": "4"
         },
         {
-            "naam": "Voorbeeld3",
+            "naam": "Stomydo",
             "logo": "logo5.png",
-            "wachtwoord": "test"
+            "wachtwoord": "5"
         },
         {
-            "naam": "Voorbeeld4",
+            "naam": "Care Innovation Centre",
             "logo": "logo6.png",
-            "wachtwoord": "test"
+            "wachtwoord": "6"
         },
         {
-            "naam": "Voorbeeld5",
+            "naam": "Emma Watch",
             "logo": "logo7.png",
-            "wachtwoord": "test"
+            "wachtwoord": "7"
+        },
+        {
+            "naam": "Assistep en Atto scootmobiel",
+            "logo": "logo8.png",
+            "wachtwoord": "8"
+        },
+        {
+            "naam": "Persoonlijke Gezondheids Omgeving",
+            "logo": "logo9.png",
+            "wachtwoord": "9"
+        },
+        {
+            "naam": "Elektronisch Patiënten Dossier",
+            "logo": "logo10.png",
+            "wachtwoord": "10"
         }
     ]
 }

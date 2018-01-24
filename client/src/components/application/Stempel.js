@@ -30,14 +30,19 @@ class Stempel extends Component {
         this.setState({wachtwoord});
     }
     componentDidMount(){
-        if(localStorage.getItem(this.props.naam).toUpperCase()===this.state.wachtwoord.toUpperCase()){
-            this.passwordRequire(localStorage.getItem(this.props.naam));
+        try {
+            if(localStorage.getItem(this.props.naam).toUpperCase()===this.state.wachtwoord.toUpperCase()){
+                this.passwordRequire(localStorage.getItem(this.props.naam));
+            }
+        }
+        catch(e){
+            
         }
     }
     passwordRequire(password){
         if(this.state.behaald===false){
             if(password!==this.state.wachtwoord){
-                password = window.prompt("Wat is het geheime woord van het kraampje "+this.props.naam+"?","");
+                password = window.prompt("Wat is het geheime woord van het kraampje "+this.props.naam+"?","","");
             }
             if(password==="" || password===undefined || password===null) {} else if(password.toUpperCase()===this.state.wachtwoord.toUpperCase()){
                 this.props.callback();
