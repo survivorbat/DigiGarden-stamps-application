@@ -1,0 +1,60 @@
+{
+    "values": {
+        "title": "DigiTuin Stempelapp",
+        "desc": "Verzamel alle DigiStempels bij de kraampjes om een prijs te winnen! Vraag bij elk kraampje om het geheime woord en vul het daarna in om een stempel te krijgen. Veel succes!",
+        "resettext": "Klik hier om uw voortgang te resetten",
+        "successtext": "Gefeliciteerd u hebt alle stempels verzameld! U kunt nu bij de balie uw prijs ophalen."
+    },
+    "stempels": [
+        {
+            "naam": "WijZijn Traverse groep",
+            "logo": "logo1.png",
+            "wachtwoord": "1"
+        },
+        {
+            "naam": "Markland College",
+            "logo": "logo2.png",
+            "wachtwoord": "2"
+        },
+        {
+            "naam": "Easystepper",
+            "logo": "logo3.png",
+            "wachtwoord": "3"
+        },
+        {
+            "naam": "Patiënten app",
+            "logo": "logo4.png",
+            "wachtwoord": "4"
+        },
+        {
+            "naam": "Stomydo",
+            "logo": "logo5.png",
+            "wachtwoord": "5"
+        },
+        {
+            "naam": "Care Innovation Centre",
+            "logo": "logo6.png",
+            "wachtwoord": "6"
+        },
+        {
+            "naam": "Emma Watch",
+            "logo": "logo7.png",
+            "wachtwoord": "7"
+        },
+        {
+            "naam": "Assistep en Atto scootmobiel",
+            "logo": "logo8.png",
+            "wachtwoord": "8"
+        },
+        {
+            "naam": "Persoonlijke Gezondheids Omgeving",
+            "logo": "logo9.png",
+            "wachtwoord": "9"
+        },
+        {
+            "naam": "Elektronisch Patiënten Dossier",
+            "logo": "logo10.png",
+            "wachtwoord": "10"
+        }
+    ]
+}
