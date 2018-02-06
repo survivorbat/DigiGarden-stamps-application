@@ -42,7 +42,7 @@ class Stempel extends Component {
     passwordRequire(password){
         if(this.state.behaald===false){
             if(password!==this.state.wachtwoord){
-                password = window.prompt("Wat is het geheime woord van het kraampje "+this.props.naam+"?","","");
+                password = window.prompt("Voer de code in voor stand "+this.props.naam,"","");
             }
             if(password==="" || password===undefined || password===null) {} else if(password.toUpperCase()===this.state.wachtwoord.toUpperCase()){
                 this.props.callback();
@@ -58,7 +58,7 @@ class Stempel extends Component {
                 const tickstyle = {color: 'green'};
                 this.setState({tickstyle});
                 localStorage.setItem(this.props.naam,this.state.wachtwoord);
-            } else {alert('Dat woord was helaas fout, probeert u het nog een keer');}
+            } else {alert('Die code was helaas fout, probeert u het nog een keer');}
         }
     }
     render() {
