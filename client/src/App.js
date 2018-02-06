@@ -6,7 +6,7 @@ import Header from './components/header/Header';
 import Application from './components/application/Application';
 import Footer from './components/footer/Footer';
 
-const API_LINK = "/api";
+const API_LINK = "";
 
 class App extends Component {
   constructor(){

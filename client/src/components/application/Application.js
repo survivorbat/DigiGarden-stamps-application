@@ -4,7 +4,6 @@ import autoBind from 'react-autobind';
 import './Application.css';
 
 import Stempel from './Stempel';
-import ResetButton from './ResetButton';
 
 class Application extends Component {
     constructor(){
