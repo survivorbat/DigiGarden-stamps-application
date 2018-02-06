@@ -6,8 +6,6 @@ import Header from './components/header/Header';
 import Application from './components/application/Application';
 import Footer from './components/footer/Footer';
 
-const API_LINK = "";
-
 class App extends Component {
   constructor(){
     super();
@@ -22,7 +20,7 @@ class App extends Component {
     }
   }
   componentWillMount(){
-    fetch(API_LINK+'/data.json')
+    fetch('data.json')
     .then(res => res.json())
     .then(res => this.setState(res));
   }
@@ -31,7 +29,7 @@ class App extends Component {
       <div className="container">
         <Header title={this.state.values.title} desc={this.state.values.desc}/>
         <Switch>
-          <Route path='/' component={() => <Application API_LINK={API_LINK} data={this.state.stempels} successtext={this.state.values.successtext} resettext={this.state.values.resettext}/>}/>
+          <Route path='/' component={() => <Application data={this.state.stempels} successtext={this.state.values.successtext} resettext={this.state.values.resettext}/>}/>
         </Switch>
         <Footer copyright="© Heijden Solutions 2018"/>
       </div>

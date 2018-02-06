@@ -24,7 +24,7 @@ class Stempel extends Component {
         autoBind(this);
     }
     componentWillMount(){
-        const stempelstyle = {backgroundImage: 'url(/img/'+this.props.logo+')'}
+        const stempelstyle = {backgroundImage: 'url(img/'+this.props.logo+')'}
         this.setState({stempelstyle});
         const wachtwoord = this.props.wachtwoord;
         this.setState({wachtwoord});
