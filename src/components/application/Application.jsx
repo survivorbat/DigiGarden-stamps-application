@@ -4,8 +4,8 @@ import "./Application.css"
 import Stempel from "./Stempel"
 
 class Application extends Component {
-    constructor(props){
-        super(props)
+    constructor(){
+        super()
         this.state = {
             done: false
         }
